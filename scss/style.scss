@@ -1,0 +1,45 @@
+//Fonts
+@import "_fonts.scss";
+//Fonts
+
+//CSS-reset
+@import "_cssreset.scss";
+//CSS-reset
+
+//Bloks
+body{
+	font-family: Poppins;
+	color: #666666;
+	&._lock {
+		overflow: hidden;
+	}
+}
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.main{
+	flex: 1 1 auto;
+}
+
+
+//header
+@import "_header.scss";
+
+
+//main
+@import "_main.scss";
+
+
+//footer
+@import "_footer.scss";
